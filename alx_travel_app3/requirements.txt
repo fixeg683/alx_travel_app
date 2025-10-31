@@ -1,0 +1,30 @@
+# Core Django Framework
+Django==5.1.1
+
+# REST API Framework
+djangorestframework==3.15.2
+
+# CORS Headers Middleware
+django-cors-headers==4.4.0
+
+# Swagger API Documentation
+drf-yasg==1.21.8
+
+# Environment Variable Management
+django-environ==0.11.2
+
+# MySQL Database Connector
+mysqlclient==2.2.4
+
+# Task Queue Management
+celery==5.4.0
+
+# Message Broker for Celery
+amqp==5.2.0
+kombu==5.4.2
+
+# Optional: For asynchronous task monitoring (Flower dashboard)
+flower==2.0.1
+
+# Optional: Gunicorn for production server
+gunicorn==22.0.0
